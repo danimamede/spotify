@@ -1,0 +1,29 @@
+:root {
+    --black-bg: #000;
+    --lighter-black-bg: #121212;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: var(--lighter-black-bg);
+    border-radius: 8px;
+    padding:  16px 0;
+}
+
+.logo img {
+    width: 80px;
+}
